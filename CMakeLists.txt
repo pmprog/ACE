@@ -84,6 +84,7 @@ endif()
 
 if(M68K_COMPILER MATCHES "Bartman")
 	include(cmake/CPM.cmake)
+	include(cmake/CPM_0.38.2.cmake)
 	CPMAddPackage(
 		NAME bartman_gcc_support
 		GITHUB_REPOSITORY AmigaPorts/bartman_gcc_support
